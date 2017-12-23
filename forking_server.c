@@ -25,9 +25,8 @@ void subserver(int from_client, int to_client) {
 
 void process(char * s) {
   int data[2];
-  data[0] = atoi(s[0]);
-  data[1] = atoi(s[1]);
-  // data[2] = atoi(s[2]);
+  data[0] = s[0] - '0';
+  data[1] = s[1] - '0';
   printf("1st number: %d\n", data[0]);
   printf("2nd number: %d\n", data[1]);
   printf("color : %c\n", s[2]);

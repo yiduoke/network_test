@@ -1,2 +1,2 @@
-# network_test
-testing the server-client relationships for Othello
+# 17Sys
+forking to serve multiple clients at once
